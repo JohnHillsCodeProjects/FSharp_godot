@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://dq2j2pj2n0u2e"]
+
+[ext_resource type="Script" path="res://fs_and_cs.cs" id="1_qck1f"]
+
+[node name="fs_and_cs" type="Label"]
+offset_left = 67.0
+offset_top = 14.0
+offset_right = 481.0
+offset_bottom = 118.0
+scale = Vector2(2.5, 2.5)
+text = "This is the scene with F# code running in C# code. If 
+all is working well, you should see \"|working|\" below.
+
+Press Escape or Enter to return to main scene"
+horizontal_alignment = 1
+script = ExtResource("1_qck1f")
+
+[node name="output" type="Label" parent="."]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 171.6
+offset_right = 241.0
+offset_bottom = 197.6
