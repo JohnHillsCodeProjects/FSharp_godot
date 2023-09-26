@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkd5g67h8u3lr"]
+
+[ext_resource type="Script" path="res://just_csharp.cs" id="1_ky4rh"]
+
+[node name="just_Csharp" type="Label"]
+offset_left = 92.0
+offset_top = 25.0
+offset_right = 480.0
+offset_bottom = 129.0
+scale = Vector2(2.5, 2.5)
+text = "This is the scene with just C# code. If all is working 
+well, you should see \"|working|\" displayed below
+
+Press Escape or Enter to return to main scene"
+horizontal_alignment = 1
+script = ExtResource("1_ky4rh")
+
+[node name="output" type="Label" parent="."]
+layout_mode = 0
+offset_left = 160.4
+offset_top = 182.0
+offset_right = 241.4
+offset_bottom = 208.0

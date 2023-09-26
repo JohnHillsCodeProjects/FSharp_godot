@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7i7vyBH8+5Ukw4+VVX6t1S5rJ0DaAyzZhSmcqvIUDebElbF43oi9kGzIhW5qNuARkw+ukET41VdpFjVzta0IFg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\FBI-RECON-VAN\\Desktop\\Custom games\\_technical_test_projects\\Fsharp_godot_test\\FSharpLibrary\\FSharpLibrary.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FBI-RECON-VAN\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

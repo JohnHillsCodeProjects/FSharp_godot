@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://main.cs" type="Script" id=1]
+
+[node name="main" type="Label"]
+margin_left = 13.0
+margin_top = 12.0
+margin_right = 725.0
+margin_bottom = 366.0
+rect_scale = Vector2( 1.4, 1.4 )
+text = "Press 1 to view a scene with just C# code
+
+Press 2 to view a scene where C# code imports F# code
+
+How to get C# code to import and run F# functions (a step by step guide):
+1. Attach a C# script to a node (you don't necessarily have to run F# code on that node, any C# script will do) 
+2. Build the solution for the project and open that solution file in Visual Studio.
+3. Create a new F# library project inside the project solution (recommened that you place the library inside a 
+seperate folder in the godot folder)
+4. Add a project reference in the C# project to the F# library 
+(Optional: If you want to interface with Godot directly through F# then add an assembly reference in the F# 
+project to GodotSharp which can be found in the Godot project file under .mono\\assemblies\\Release)
+
+Now you can reference any F# function you write in the source files in the F# library project can be referenced
+in the C# code files you write.
+
+POTENTIAL VSCODE ERROR: Even if you properly reference the F# library and reference the correct namespace 
+and everything else, VSCode (and sometimes Visual Studio) will still tell you that it doesn't recognise the names 
+and will give you an error. Despite this error, I have found that Godot will still compile and run both the C# and 
+F# code perfectly well. If you are sure that you correctly referenced everything, run your project in Godot and
+it may just work anyway."
+script = ExtResource( 1 )
